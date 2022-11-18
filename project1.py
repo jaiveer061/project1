@@ -24,8 +24,6 @@ from tvDatafeed import TvDatafeed ,Interval
 
 import pmdarima as pm
 
-
-
 # %matplotlib inline
 
 tv = TvDatafeed()
