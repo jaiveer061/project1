@@ -15,19 +15,16 @@ import numpy as np
 import seaborn as sns
 from datetime import datetime
 from matplotlib import pyplot as plt
+import streamlit as st
 import cufflinks as cf
 import warnings
 warnings.filterwarnings("ignore")
 
-!pip install statsmodels==0.13.2 --quiet
-
-!pip install tvdatafeed --quiet
 from tvDatafeed import TvDatafeed ,Interval
 
-!pip install pmdarima --quiet
 import pmdarima as pm
 
-!pip install streamlit
+
 
 # %matplotlib inline
 
