@@ -777,6 +777,3 @@ se = np.square(pred.loc[:, 'yhat'] - data2.y)
 mse = np.mean(se)
 rmse = np.sqrt(mse)
 rmse
-
-"""# Deployment"""
-#freeze
