@@ -779,5 +779,4 @@ rmse = np.sqrt(mse)
 rmse
 
 """# Deployment"""
-
-# pip freeze
+#freeze
