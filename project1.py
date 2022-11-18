@@ -739,10 +739,6 @@ plt.plot(valid['Predictions'],label='predicted')
 plt.legend()
 
 """#FB PROPHET"""
-
-!pip install pystan~=2.14 --quiet
-!pip install fbprophet --quiet
-
 import fbprophet
 from fbprophet import Prophet
 
