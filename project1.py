@@ -24,6 +24,9 @@ from tvDatafeed import TvDatafeed ,Interval
 
 import pmdarima as pm
 
+
+st.set_page_config(layout='wide)
+
 # %matplotlib inline
 
 tv = TvDatafeed()
