@@ -700,4 +700,4 @@ if MODEL == 'FB Prophet':
     	    fb(COMPANY) 
 
 	with col2:
-    	    fb(COMPANY1
+    	    fb(COMPANY1)
