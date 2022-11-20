@@ -29,6 +29,26 @@ st.set_page_config(layout='wide')
 
 # %matplotlib inline
 
+def add_bg_from_url():
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://www.pinterest.com/pin/824018063052364599/");
+             background-attachment: fixed;
+	     background-position: 25% 75%;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+
+add_bg_from_url()
+
+
+
+
 tv = TvDatafeed()
 data = tv.get_hist(symbol='PNB',exchange='NSE',n_bars=5000)
 data['date'] = data.index.astype(str)
